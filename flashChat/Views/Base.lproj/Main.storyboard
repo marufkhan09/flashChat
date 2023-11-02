@@ -48,8 +48,8 @@
                                     <segue destination="92s-KL-pwW" kind="show" id="wdK-nT-Yiv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fu3-IA-0ff">
-                                <rect key="frame" x="70.666666666666686" y="436" width="289" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fu3-IA-0ff">
+                                <rect key="frame" x="215" y="436" width="0.0" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="mZa-DU-d90"/>
                                 </constraints>
@@ -72,6 +72,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="i2Q-XB-nlu"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="Fu3-IA-0ff" id="aeb-hN-MxD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
