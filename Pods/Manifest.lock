@@ -1,16 +1,20 @@
 PODS:
   - CLTypingLabel (0.4.0)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
   - CLTypingLabel
+  - Toast (~> 4.0.0)
 
 SPEC REPOS:
   trunk:
     - CLTypingLabel
+    - Toast
 
 SPEC CHECKSUMS:
   CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 285c0002d6973f6c1fd780f037dd7974cb71029e
+PODFILE CHECKSUM: b25deba220159f8fa0ca9f9ef6ec4eaa7e0eb99b
 
 COCOAPODS: 1.14.2

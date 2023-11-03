@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import Toast
 class RegisterViewController: UIViewController {
     
     @IBOutlet weak var emailTextfield: CustomTextField!
@@ -22,7 +23,8 @@ class RegisterViewController: UIViewController {
             , let password = passwordTextfield.text{
             Auth.auth().createUser(withEmail: email, password: password) { authresult, error in
                 if let e = error {
-                    print(e.localizedDescription)
+                    
+                    self.view.makeToast(e.localizedDescription)
                 } else {
                     //Navigate to chatViewController
                     self.performSegue(withIdentifier: "RegisterToChat", sender: self)

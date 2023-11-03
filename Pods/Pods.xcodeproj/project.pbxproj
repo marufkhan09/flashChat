@@ -7,37 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16BAC3D8C991616137A1AAF29584A482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1BD9F655E8A7BC460E70E5110DB7C08D /* Pods-flashChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E1D16EF70837AE07ACC3FDDFA706B1 /* Pods-flashChat-dummy.m */; };
+		0223F770EBF384F4BD6BBA3A10D307D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		0E2FC1164F78C6825B6B279BD1B4452E /* Pods-flashChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E1D16EF70837AE07ACC3FDDFA706B1 /* Pods-flashChat-dummy.m */; };
+		1683CDB32DE631B878AD2CB93319C198 /* Pods-flashChat-flashChatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 240B9F6DBB2A0A3523314A3D3836EFDF /* Pods-flashChat-flashChatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BAC3D8C991616137A1AAF29584A482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
 		295689AF64A6C3090F894E2A626DFC38 /* Pods-flashChatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E471E99B9331C34B8BC5FD724C498766 /* Pods-flashChatTests-dummy.m */; };
 		34A698BFF7D125769E8F38A5D951AD4C /* Pods-flashChatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DE9CC55509B14F362E80EEDA23BB50 /* Pods-flashChatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39719A162A81897C508459B0098E29BE /* CLTypingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */; };
-		3E5EF9A4A25544232D8968E1C33A64E9 /* Pods-flashChat-flashChatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 240B9F6DBB2A0A3523314A3D3836EFDF /* Pods-flashChat-flashChatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D7C4568CBD082A4C3CCC86F0A5E841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4D2FC53B4837E9FED51200C321D9420C /* CLTypingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67893102DF4072E7B62746ACBA14B159 /* Pods-flashChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 147BA04DE0806B7A6D797AC96846D1E7 /* Pods-flashChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AAA8E143E37C33B9C20DF4C94ECA9D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C5843936956336D732E73AFA5EEAB889 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */; };
-		E2A01F0F5504F2192BFDDFB1D9898512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F1244D0ED96FE61DC8F9BBE12F1405EF /* Pods-flashChat-flashChatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F48F5D80D867ED2C77D71DDB7B6D75 /* Pods-flashChat-flashChatUITests-dummy.m */; };
+		39719A162A81897C508459B0098E29BE /* CLTypingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660B3D2F4224B139CA63965F8546A762 /* CLTypingLabel-dummy.m */; };
+		4CBB3BCBF2F1A63836A813FD55B21C1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		4D2FC53B4837E9FED51200C321D9420C /* CLTypingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8696F449EA92B89DF49747FA1265653 /* CLTypingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5909713605DFA4A6B8C9C972B53F043F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		68AAC71FFFC9DBF9D91126745957CCF9 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F5891711E2294767DCF54818D1CF83 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89749C2AB22FD0582922C8F4C6E065FD /* Pods-flashChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 147BA04DE0806B7A6D797AC96846D1E7 /* Pods-flashChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E9789523F97037A39B99FB14A9EFBBE /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B635EF8B0CB3CA612587DD21E10F08D8 /* Toast-dummy.m */; };
+		90ABF8299DA47391794588816F99B2A8 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = F15A2D6070DB2B096FFA7B8F61F59844 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D7ACE73F1A006908D8A22323835BB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */; };
+		C5843936956336D732E73AFA5EEAB889 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492C151DDA4B3F0CE37288A741CACA3 /* CLTypingLabel.swift */; };
+		C9DFAE6FA84E0EEC86934F696467135A /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA93156CAEAE5539FC377EE40CB7391 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF10986367466C0D2414AA669757552 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4921FF253CE603BDAAB8A4303381F909 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A01F0F5504F2192BFDDFB1D9898512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		FA6098BC5B1675FE04FB389DAEFCAE69 /* Pods-flashChat-flashChatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F48F5D80D867ED2C77D71DDB7B6D75 /* Pods-flashChat-flashChatUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		273B1128E8D2A095E80695F519D9F7DD /* PBXContainerItemProxy */ = {
+		0C3E618F84EC1849829CEC7D97983A79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6F8A929BDB6E633BE35459804508532F;
 			remoteInfo = CLTypingLabel;
 		};
-		42EBD82234BDA82FA8480F4798B8C413 /* PBXContainerItemProxy */ = {
+		5EC00488C6951439CF609E777C435A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80A4D6B185BA43BC06122FED0C15F94;
+			remoteInfo = Toast;
+		};
+		6A96996EA77230ECCB4B3E196D7DD6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80A4D6B185BA43BC06122FED0C15F94;
+			remoteInfo = Toast;
+		};
+		80B4220FCB940824BCC4E5C75DD40755 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6F8A929BDB6E633BE35459804508532F;
 			remoteInfo = CLTypingLabel;
 		};
-		77328F7E55B37692524A4B5E8504B0C9 /* PBXContainerItemProxy */ = {
+		EFC621FBBD7D185C748B45258E56977A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,45 +68,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.release.xcconfig; sourceTree = "<group>"; };
 		0DF25059EB10F5B0C6F1688272F7145C /* Pods-flashChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flashChat.debug.xcconfig"; sourceTree = "<group>"; };
 		11945013C10460B1AA155ED4DC046679 /* Pods-flashChatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-flashChatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		119B43470F151079A6BE74D49F51D849 /* Pods-flashChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-flashChat-frameworks.sh"; sourceTree = "<group>"; };
 		147BA04DE0806B7A6D797AC96846D1E7 /* Pods-flashChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-flashChat-umbrella.h"; sourceTree = "<group>"; };
 		166FAA8BBBC5A62CB5C94746860307D8 /* Pods-flashChat-flashChatUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flashChat-flashChatUITests-Info.plist"; sourceTree = "<group>"; };
+		1CE94BF516797246D474C5AFC3BB8006 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
 		1ECEEFE56173E865A92CF056124A9675 /* Pods-flashChat-flashChatUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-flashChat-flashChatUITests"; path = Pods_flashChat_flashChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119F3485644C9585FC92BB2690E2E89 /* Toast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.debug.xcconfig; sourceTree = "<group>"; };
 		240B9F6DBB2A0A3523314A3D3836EFDF /* Pods-flashChat-flashChatUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-flashChat-flashChatUITests-umbrella.h"; sourceTree = "<group>"; };
+		244E6721F41CEA05771ECF3ED458328A /* CLTypingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-prefix.pch"; sourceTree = "<group>"; };
+		2A62CA4A30C051D1AF03DC89393F94F6 /* Toast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Info.plist"; sourceTree = "<group>"; };
 		2B8D23E6D92D84E21F9251E598B7734F /* Pods-flashChat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-flashChat"; path = Pods_flashChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		31F860F41A59EB3D0264E39B30095292 /* CLTypingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.release.xcconfig; sourceTree = "<group>"; };
+		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		47B269E216DE91AA1BBD71F900ADB365 /* Pods-flashChatTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-flashChatTests.modulemap"; sourceTree = "<group>"; };
+		4921FF253CE603BDAAB8A4303381F909 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
 		51E1D16EF70837AE07ACC3FDDFA706B1 /* Pods-flashChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-flashChat-dummy.m"; sourceTree = "<group>"; };
+		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56567450D9D93C0AC2787B9E6E999F54 /* Pods-flashChat-flashChatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-flashChat-flashChatUITests-frameworks.sh"; sourceTree = "<group>"; };
 		597FA287084D9D3A7F868D7E43808B7E /* Pods-flashChatTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-flashChatTests"; path = Pods_flashChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEBCF765B44BA4A734F21B111F5C877 /* CLTypingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.debug.xcconfig; sourceTree = "<group>"; };
 		5EBFCF3AD7C0BAFDF164B29E68903744 /* Pods-flashChat-flashChatUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-flashChat-flashChatUITests.modulemap"; sourceTree = "<group>"; };
+		660B3D2F4224B139CA63965F8546A762 /* CLTypingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLTypingLabel-dummy.m"; sourceTree = "<group>"; };
 		68379011755631E4A3E692BE1C52724A /* Pods-flashChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flashChat-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLTypingLabel-dummy.m"; sourceTree = "<group>"; };
-		7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTypingLabel.swift; path = Pod/Classes/CLTypingLabel.swift; sourceTree = "<group>"; };
-		81EF2928B5AE30D287990BF6C3B3562F /* CLTypingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-prefix.pch"; sourceTree = "<group>"; };
+		7492C151DDA4B3F0CE37288A741CACA3 /* CLTypingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTypingLabel.swift; path = Pod/Classes/CLTypingLabel.swift; sourceTree = "<group>"; };
 		8C7DA98EDDC27B891457BE3A1574D605 /* Pods-flashChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flashChat-Info.plist"; sourceTree = "<group>"; };
 		8C8C7E6492098D33AC75E8349A471120 /* Pods-flashChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-flashChat.modulemap"; sourceTree = "<group>"; };
 		8D5A10985CFF2707E56C70D308955248 /* Pods-flashChat-flashChatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flashChat-flashChatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EA93156CAEAE5539FC377EE40CB7391 /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
 		9A48012BEDF06BCAADA0E502231EBC17 /* Pods-flashChat-flashChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flashChat-flashChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.debug.xcconfig; sourceTree = "<group>"; };
 		A3F48F5D80D867ED2C77D71DDB7B6D75 /* Pods-flashChat-flashChatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-flashChat-flashChatUITests-dummy.m"; sourceTree = "<group>"; };
 		A8484A1F1D6FD02DA1C3305BC8E881A9 /* Pods-flashChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-flashChat-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-umbrella.h"; sourceTree = "<group>"; };
-		B0542A5624B5DE02B2C5350C79F8A878 /* CLTypingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLTypingLabel-Info.plist"; sourceTree = "<group>"; };
 		B1B694374FA3D92E4D143AB1BF0B1C12 /* Pods-flashChatTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flashChatTests-Info.plist"; sourceTree = "<group>"; };
+		B635EF8B0CB3CA612587DD21E10F08D8 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
 		B65FD7847C7BBC2FDB861BD0BF6DA511 /* Pods-flashChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flashChat.release.xcconfig"; sourceTree = "<group>"; };
 		C3DE9CC55509B14F362E80EEDA23BB50 /* Pods-flashChatTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-flashChatTests-umbrella.h"; sourceTree = "<group>"; };
 		C6527E0B0C6618BB1E1051D518CECF8C /* Pods-flashChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flashChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLTypingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2619B7AF21F6AC212495B4B4399AD8C /* Pods-flashChatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flashChatTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5C7209DEA018C4293E1EAE3D31B95A0 /* CLTypingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLTypingLabel.modulemap; sourceTree = "<group>"; };
+		D2B2FE070B631EA04A14A36546721897 /* CLTypingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLTypingLabel.modulemap; sourceTree = "<group>"; };
 		D65929B01F489641624D29FA7323D455 /* Pods-flashChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flashChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		DAFBFF0CF3561952E50AFE7EC924B4E9 /* Pods-flashChat-flashChatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-flashChat-flashChatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2CDE1474A2707460F5C039C6CDA5A04 /* CLTypingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLTypingLabel-Info.plist"; sourceTree = "<group>"; };
 		E471E99B9331C34B8BC5FD724C498766 /* Pods-flashChatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-flashChatTests-dummy.m"; sourceTree = "<group>"; };
+		E6F5891711E2294767DCF54818D1CF83 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		EFB528202A052A6EEF1C029E7582C4BD /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		F15A2D6070DB2B096FFA7B8F61F59844 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		F8696F449EA92B89DF49747FA1265653 /* CLTypingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-umbrella.h"; sourceTree = "<group>"; };
+		FCBA5E34A092B1247BF7A97E303C43F1 /* Toast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.release.xcconfig; sourceTree = "<group>"; };
 		FFE7962F06868F9A092FEBFBA32DADE9 /* Pods-flashChat-flashChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flashChat-flashChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +131,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2439E38473016779C3880AB414EABDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBB3BCBF2F1A63836A813FD55B21C1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48848003628701101494E561F2825532 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,25 +147,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		667C0C7ADE974A8EE23209F736272279 /* Frameworks */ = {
+		A58111F07FED9CDEC4E06B9FC21D0D93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AAA8E143E37C33B9C20DF4C94ECA9D1 /* Foundation.framework in Frameworks */,
+				0223F770EBF384F4BD6BBA3A10D307D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1CD7B358783375AEBC071F4319E9189 /* Frameworks */ = {
+		B7A0E861A8C2FC97DD31CC8718B51448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D7C4568CBD082A4C3CCC86F0A5E841 /* Foundation.framework in Frameworks */,
+				5909713605DFA4A6B8C9C972B53F043F /* Foundation.framework in Frameworks */,
+				C3D7ACE73F1A006908D8A22323835BB7 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10FE7F7D2FA6C758DCBE6C510507D92B /* CLTypingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7492C151DDA4B3F0CE37288A741CACA3 /* CLTypingLabel.swift */,
+				3217DF849D46D79541866DED0F03B201 /* Support Files */,
+			);
+			path = CLTypingLabel;
+			sourceTree = "<group>";
+		};
 		11B0E93179006C6966201A52DBEC68FE /* Pods-flashChat-flashChatUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +191,41 @@
 			);
 			name = "Pods-flashChat-flashChatUITests";
 			path = "Target Support Files/Pods-flashChat-flashChatUITests";
+			sourceTree = "<group>";
+		};
+		13D7CC85CE5ED5DBB8A4C2C4E6291131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */,
+				2B8D23E6D92D84E21F9251E598B7734F /* Pods-flashChat */,
+				1ECEEFE56173E865A92CF056124A9675 /* Pods-flashChat-flashChatUITests */,
+				597FA287084D9D3A7F868D7E43808B7E /* Pods-flashChatTests */,
+				55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D325A42620E7427FB70FB046C7B7B240 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3217DF849D46D79541866DED0F03B201 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2FE070B631EA04A14A36546721897 /* CLTypingLabel.modulemap */,
+				660B3D2F4224B139CA63965F8546A762 /* CLTypingLabel-dummy.m */,
+				E2CDE1474A2707460F5C039C6CDA5A04 /* CLTypingLabel-Info.plist */,
+				244E6721F41CEA05771ECF3ED458328A /* CLTypingLabel-prefix.pch */,
+				F8696F449EA92B89DF49747FA1265653 /* CLTypingLabel-umbrella.h */,
+				5CEBCF765B44BA4A734F21B111F5C877 /* CLTypingLabel.debug.xcconfig */,
+				31F860F41A59EB3D0264E39B30095292 /* CLTypingLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CLTypingLabel";
 			sourceTree = "<group>";
 		};
 		3893604944CECAB2FD89C4D856252907 /* Pods-flashChat */ = {
@@ -159,14 +245,6 @@
 			path = "Target Support Files/Pods-flashChat";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		5D6478CFD0F390E6E3EED1898D9A4F59 /* Pods-flashChatTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,15 +261,15 @@
 			path = "Target Support Files/Pods-flashChatTests";
 			sourceTree = "<group>";
 		};
-		969F7BA12A678E3A31B29045F1BD8CEE /* Products */ = {
+		71C44712EDC63787730876DD8DB8A152 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
-				CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */,
-				2B8D23E6D92D84E21F9251E598B7734F /* Pods-flashChat */,
-				1ECEEFE56173E865A92CF056124A9675 /* Pods-flashChat-flashChatUITests */,
-				597FA287084D9D3A7F868D7E43808B7E /* Pods-flashChatTests */,
+				F15A2D6070DB2B096FFA7B8F61F59844 /* Toast.h */,
+				4921FF253CE603BDAAB8A4303381F909 /* UIView+Toast.h */,
+				E6F5891711E2294767DCF54818D1CF83 /* UIView+Toast.m */,
+				A76A1C3AD25CD55EA209EB74834B6356 /* Support Files */,
 			);
-			name = Products;
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		9CBFE75A0EC2EA1CC83E6F784615B748 /* Targets Support Files */ = {
@@ -204,73 +282,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AFC3D31ED54F53BF4A8BC448129532ED /* Support Files */ = {
+		A76A1C3AD25CD55EA209EB74834B6356 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5C7209DEA018C4293E1EAE3D31B95A0 /* CLTypingLabel.modulemap */,
-				7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */,
-				B0542A5624B5DE02B2C5350C79F8A878 /* CLTypingLabel-Info.plist */,
-				81EF2928B5AE30D287990BF6C3B3562F /* CLTypingLabel-prefix.pch */,
-				AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */,
-				A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */,
-				07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */,
+				EFB528202A052A6EEF1C029E7582C4BD /* Toast.modulemap */,
+				B635EF8B0CB3CA612587DD21E10F08D8 /* Toast-dummy.m */,
+				2A62CA4A30C051D1AF03DC89393F94F6 /* Toast-Info.plist */,
+				1CE94BF516797246D474C5AFC3BB8006 /* Toast-prefix.pch */,
+				8EA93156CAEAE5539FC377EE40CB7391 /* Toast-umbrella.h */,
+				2119F3485644C9585FC92BB2690E2E89 /* Toast.debug.xcconfig */,
+				FCBA5E34A092B1247BF7A97E303C43F1 /* Toast.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CLTypingLabel";
+			path = "../Target Support Files/Toast";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E5728BA1B8CEEB3143CA35A236294C2C /* Pods */,
-				969F7BA12A678E3A31B29045F1BD8CEE /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				E2C0169FAE57D3ACF673442D8C92D9F8 /* Pods */,
+				13D7CC85CE5ED5DBB8A4C2C4E6291131 /* Products */,
 				9CBFE75A0EC2EA1CC83E6F784615B748 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D325A42620E7427FB70FB046C7B7B240 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */,
+				2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		E5728BA1B8CEEB3143CA35A236294C2C /* Pods */ = {
+		E2C0169FAE57D3ACF673442D8C92D9F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F50BBCA84C4709AF15E302F2BDC0566D /* CLTypingLabel */,
+				10FE7F7D2FA6C758DCBE6C510507D92B /* CLTypingLabel */,
+				71C44712EDC63787730876DD8DB8A152 /* Toast */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F50BBCA84C4709AF15E302F2BDC0566D /* CLTypingLabel */ = {
-			isa = PBXGroup;
-			children = (
-				7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */,
-				AFC3D31ED54F53BF4A8BC448129532ED /* Support Files */,
-			);
-			path = CLTypingLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28A2C5F477F43F3F4E3E492EC64BA0C9 /* Headers */ = {
+		B5ACF4510BFA9CDEE0CE006D1F9A1056 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E5EF9A4A25544232D8968E1C33A64E9 /* Pods-flashChat-flashChatUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F2178011C516A762022F2F7E017EF72 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67893102DF4072E7B62746ACBA14B159 /* Pods-flashChat-umbrella.h in Headers */,
+				89749C2AB22FD0582922C8F4C6E065FD /* Pods-flashChat-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,22 +353,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0ED1D82EF6BBE5FD2A13911EBA62C5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ABF8299DA47391794588816F99B2A8 /* Toast.h in Headers */,
+				C9DFAE6FA84E0EEC86934F696467135A /* Toast-umbrella.h in Headers */,
+				CFF10986367466C0D2414AA669757552 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5C69D859CA33A71C6D1FE26C620C49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1683CDB32DE631B878AD2CB93319C198 /* Pods-flashChat-flashChatUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2728BE25239234E08D23A90FE5F64733 /* Pods-flashChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 184D740C2453596D827A60173A1830BD /* Build configuration list for PBXNativeTarget "Pods-flashChat" */;
+			buildConfigurationList = D16541797A968260FF9FCFA0474D107C /* Build configuration list for PBXNativeTarget "Pods-flashChat" */;
 			buildPhases = (
-				3F2178011C516A762022F2F7E017EF72 /* Headers */,
-				451198A91770075A6306D110EF9330D0 /* Sources */,
-				667C0C7ADE974A8EE23209F736272279 /* Frameworks */,
-				3359079F5F4EE522C680E57DEE8FDB9C /* Resources */,
+				B5ACF4510BFA9CDEE0CE006D1F9A1056 /* Headers */,
+				429BCF1ACF4462DF1B1FF16FCA3E913F /* Sources */,
+				2439E38473016779C3880AB414EABDFF /* Frameworks */,
+				C193749AF2997327A0DF0493687BB20A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9224CD047DB5D4B5F6D03BEE7A7A8E0F /* PBXTargetDependency */,
+				FE80B1E61F2984BC166898CD9C3ED929 /* PBXTargetDependency */,
+				955E68D0B298A2FDD3525FFD682EB8C4 /* PBXTargetDependency */,
 			);
 			name = "Pods-flashChat";
 			productName = Pods_flashChat;
@@ -324,7 +406,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				66332BDE44F7BDB7606A1E40E2F56046 /* PBXTargetDependency */,
+				27EB8FC1161DC00EDEA6E02467BC9B73 /* PBXTargetDependency */,
 			);
 			name = "Pods-flashChatTests";
 			productName = Pods_flashChatTests;
@@ -333,17 +415,18 @@
 		};
 		668C1C660B33155AA22BCF2C349248E9 /* Pods-flashChat-flashChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFBF15F543B9F99FFA6B739771EA4AC5 /* Build configuration list for PBXNativeTarget "Pods-flashChat-flashChatUITests" */;
+			buildConfigurationList = B67B714441876CA72A081D1084DA49FF /* Build configuration list for PBXNativeTarget "Pods-flashChat-flashChatUITests" */;
 			buildPhases = (
-				28A2C5F477F43F3F4E3E492EC64BA0C9 /* Headers */,
-				52A929D96CEDE60F1FAD61D5ED3184AB /* Sources */,
-				D1CD7B358783375AEBC071F4319E9189 /* Frameworks */,
-				56C11B98E787E4C55F07199673EB202C /* Resources */,
+				EB5C69D859CA33A71C6D1FE26C620C49 /* Headers */,
+				D4185EDB3DF2DC1792D0E05C7F64665F /* Sources */,
+				A58111F07FED9CDEC4E06B9FC21D0D93 /* Frameworks */,
+				ED0D08584A9EB997C22293132CA3A5E2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				89CCEC099472BB6C584E2092510B69ED /* PBXTargetDependency */,
+				A6417F861CF7D502F177C3E12D8893C7 /* PBXTargetDependency */,
+				9AD46B1C7D530FDC4F6EB573C2640DC5 /* PBXTargetDependency */,
 			);
 			name = "Pods-flashChat-flashChatUITests";
 			productName = Pods_flashChat_flashChatUITests;
@@ -368,6 +451,24 @@
 			productReference = CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A80A4D6B185BA43BC06122FED0C15F94 /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CD12DE8ABE1FF0531483FCEE298F05 /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				E0ED1D82EF6BBE5FD2A13911EBA62C5E /* Headers */,
+				D720A666CB58E75FA5304BE96D22849E /* Sources */,
+				B7A0E861A8C2FC97DD31CC8718B51448 /* Frameworks */,
+				B49E7CDBA52F32E06EC0DC26CA4D828F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = 55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -386,7 +487,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 969F7BA12A678E3A31B29045F1BD8CEE /* Products */;
+			productRefGroup = 13D7CC85CE5ED5DBB8A4C2C4E6291131 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -394,6 +495,7 @@
 				2728BE25239234E08D23A90FE5F64733 /* Pods-flashChat */,
 				668C1C660B33155AA22BCF2C349248E9 /* Pods-flashChat-flashChatUITests */,
 				2EF4408FEA41A90DECA8A08FB6048C93 /* Pods-flashChatTests */,
+				A80A4D6B185BA43BC06122FED0C15F94 /* Toast */,
 			);
 		};
 /* End PBXProject section */
@@ -406,21 +508,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3359079F5F4EE522C680E57DEE8FDB9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		56C11B98E787E4C55F07199673EB202C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84A72A200C69980E5EBD1C2537106D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49E7CDBA52F32E06EC0DC26CA4D828F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C193749AF2997327A0DF0493687BB20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D08584A9EB997C22293132CA3A5E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -439,11 +548,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		451198A91770075A6306D110EF9330D0 /* Sources */ = {
+		429BCF1ACF4462DF1B1FF16FCA3E913F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD9F655E8A7BC460E70E5110DB7C08D /* Pods-flashChat-dummy.m in Sources */,
+				0E2FC1164F78C6825B6B279BD1B4452E /* Pods-flashChat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,75 +564,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52A929D96CEDE60F1FAD61D5ED3184AB /* Sources */ = {
+		D4185EDB3DF2DC1792D0E05C7F64665F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1244D0ED96FE61DC8F9BBE12F1405EF /* Pods-flashChat-flashChatUITests-dummy.m in Sources */,
+				FA6098BC5B1675FE04FB389DAEFCAE69 /* Pods-flashChat-flashChatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D720A666CB58E75FA5304BE96D22849E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9789523F97037A39B99FB14A9EFBBE /* Toast-dummy.m in Sources */,
+				68AAC71FFFC9DBF9D91126745957CCF9 /* UIView+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		66332BDE44F7BDB7606A1E40E2F56046 /* PBXTargetDependency */ = {
+		27EB8FC1161DC00EDEA6E02467BC9B73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-flashChat";
 			target = 2728BE25239234E08D23A90FE5F64733 /* Pods-flashChat */;
-			targetProxy = 77328F7E55B37692524A4B5E8504B0C9 /* PBXContainerItemProxy */;
+			targetProxy = EFC621FBBD7D185C748B45258E56977A /* PBXContainerItemProxy */;
 		};
-		89CCEC099472BB6C584E2092510B69ED /* PBXTargetDependency */ = {
+		955E68D0B298A2FDD3525FFD682EB8C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = A80A4D6B185BA43BC06122FED0C15F94 /* Toast */;
+			targetProxy = 5EC00488C6951439CF609E777C435A70 /* PBXContainerItemProxy */;
+		};
+		9AD46B1C7D530FDC4F6EB573C2640DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = A80A4D6B185BA43BC06122FED0C15F94 /* Toast */;
+			targetProxy = 6A96996EA77230ECCB4B3E196D7DD6EF /* PBXContainerItemProxy */;
+		};
+		A6417F861CF7D502F177C3E12D8893C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLTypingLabel;
 			target = 6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */;
-			targetProxy = 273B1128E8D2A095E80695F519D9F7DD /* PBXContainerItemProxy */;
+			targetProxy = 0C3E618F84EC1849829CEC7D97983A79 /* PBXContainerItemProxy */;
 		};
-		9224CD047DB5D4B5F6D03BEE7A7A8E0F /* PBXTargetDependency */ = {
+		FE80B1E61F2984BC166898CD9C3ED929 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLTypingLabel;
 			target = 6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */;
-			targetProxy = 42EBD82234BDA82FA8480F4798B8C413 /* PBXContainerItemProxy */;
+			targetProxy = 80B4220FCB940824BCC4E5C75DD40755 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E19D79EABEE7DF44486879D0E1B4EF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A48012BEDF06BCAADA0E502231EBC17 /* Pods-flashChat-flashChatUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-flashChat-flashChatUITests/Pods-flashChat-flashChatUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-flashChat-flashChatUITests/Pods-flashChat-flashChatUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2B8BF14E106B9E66FEA293F5FF46955D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6527E0B0C6618BB1E1051D518CECF8C /* Pods-flashChatTests.debug.xcconfig */;
@@ -561,7 +654,115 @@
 			};
 			name = Debug;
 		};
-		37C4D4923BC83FBD5C94F742E090894C /* Release */ = {
+		4403F9CC734D58537AF3D4093DC3CD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A48012BEDF06BCAADA0E502231EBC17 /* Pods-flashChat-flashChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-flashChat-flashChatUITests/Pods-flashChat-flashChatUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-flashChat-flashChatUITests/Pods-flashChat-flashChatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		469832D5AA477AA185990354FCD42610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CEBCF765B44BA4A734F21B111F5C877 /* CLTypingLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
+				PRODUCT_MODULE_NAME = CLTypingLabel;
+				PRODUCT_NAME = CLTypingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC3A7A0CD248AF4623E3220F55CC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F860F41A59EB3D0264E39B30095292 /* CLTypingLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
+				PRODUCT_MODULE_NAME = CLTypingLabel;
+				PRODUCT_NAME = CLTypingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61E029286BADDDB867920F96546DE80F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFE7962F06868F9A092FEBFBA32DADE9 /* Pods-flashChat-flashChatUITests.release.xcconfig */;
 			buildSettings = {
@@ -599,44 +800,9 @@
 			};
 			name = Release;
 		};
-		469832D5AA477AA185990354FCD42610 /* Debug */ = {
+		6F5A0DDBD34358CF2216650562724B4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D6DE1C24DE97273E52E4BE44D078362 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DF25059EB10F5B0C6F1688272F7145C /* Pods-flashChat.debug.xcconfig */;
+			baseConfigurationReference = B65FD7847C7BBC2FDB861BD0BF6DA511 /* Pods-flashChat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -665,41 +831,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5FC3A7A0CD248AF4623E3220F55CC25B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -835,9 +966,44 @@
 			};
 			name = Release;
 		};
-		F46109777E6BFA71C4E65DD7A82868E7 /* Release */ = {
+		A390615F4D78F71BE3033977A2742C29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B65FD7847C7BBC2FDB861BD0BF6DA511 /* Pods-flashChat.release.xcconfig */;
+			baseConfigurationReference = FCBA5E34A092B1247BF7A97E303C43F1 /* Toast.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7E7415C592B456BDF4EBB3568D313BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF25059EB10F5B0C6F1688272F7145C /* Pods-flashChat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -867,11 +1033,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		EAA2FB70AB6A41FA74245E1E35DBBFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2119F3485644C9585FC92BB2690E2E89 /* Toast.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FEE7DE671DC0B9CA638B57D75D455317 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -914,15 +1113,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		184D740C2453596D827A60173A1830BD /* Build configuration list for PBXNativeTarget "Pods-flashChat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D6DE1C24DE97273E52E4BE44D078362 /* Debug */,
-				F46109777E6BFA71C4E65DD7A82868E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -950,11 +1140,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFBF15F543B9F99FFA6B739771EA4AC5 /* Build configuration list for PBXNativeTarget "Pods-flashChat-flashChatUITests" */ = {
+		83CD12DE8ABE1FF0531483FCEE298F05 /* Build configuration list for PBXNativeTarget "Toast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E19D79EABEE7DF44486879D0E1B4EF9 /* Debug */,
-				37C4D4923BC83FBD5C94F742E090894C /* Release */,
+				EAA2FB70AB6A41FA74245E1E35DBBFFB /* Debug */,
+				A390615F4D78F71BE3033977A2742C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67B714441876CA72A081D1084DA49FF /* Build configuration list for PBXNativeTarget "Pods-flashChat-flashChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4403F9CC734D58537AF3D4093DC3CD63 /* Debug */,
+				61E029286BADDDB867920F96546DE80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16541797A968260FF9FCFA0474D107C /* Build configuration list for PBXNativeTarget "Pods-flashChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E7415C592B456BDF4EBB3568D313BD /* Debug */,
+				6F5A0DDBD34358CF2216650562724B4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
