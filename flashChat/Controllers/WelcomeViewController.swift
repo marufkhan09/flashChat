@@ -6,27 +6,18 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        titleAnimation(title: "⚡️FlashChat")
+        titleLabel.text = "⚡️FlashChat"
     }
     
-    func titleAnimation(title:String){
-        var charIndex = 0.0
-        print(charIndex)
-       
-        for letter in title {
-            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { timer in
-                self.titleLabel.text?.append(String(letter))
-            }
-            charIndex += 1
-        }
-    }
+
 
 
 }

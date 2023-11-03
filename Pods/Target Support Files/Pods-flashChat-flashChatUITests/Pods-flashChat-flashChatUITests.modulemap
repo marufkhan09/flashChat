@@ -1,0 +1,6 @@
+framework module Pods_flashChat_flashChatUITests {
+  umbrella header "Pods-flashChat-flashChatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
