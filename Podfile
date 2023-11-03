@@ -7,6 +7,7 @@ target 'flashChat' do
   # Pods for flashChat
   
   pod 'CLTypingLabel'
+  pod 'Toast', '~> 4.0.0'
 
   target 'flashChatTests' do
     inherit! :search_paths
