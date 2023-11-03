@@ -174,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="2083.2558139534885" y="-152.57510729613736"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat View Controller-->
         <scene sceneID="Sre-1I-jQ0">
             <objects>
-                <viewController id="354-WB-doo" sceneMemberID="viewController">
+                <viewController id="354-WB-doo" customClass="ChatViewController" customModule="flashChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b6Z-3M-PEX">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,7 +243,13 @@
                             <constraint firstItem="7C0-gR-wtZ" firstAttribute="trailing" secondItem="rdV-lh-rRS" secondAttribute="trailing" id="a9s-fI-nxV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Orc-ql-aYH"/>
+                    <navigationItem key="navigationItem" id="Orc-ql-aYH">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="zua-It-PpP">
+                            <connections>
+                                <action selector="logoutPressed:" destination="354-WB-doo" id="DpZ-hy-nFQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dw1-4t-RW0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
