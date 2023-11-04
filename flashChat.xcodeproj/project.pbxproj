@@ -24,6 +24,8 @@
 		81567730087633FB32857FCB /* Pods_flashChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BCDD4272812A8AB3BBD1C33 /* Pods_flashChat.framework */; };
 		990584F17C66AF44FBB6E4EF /* Pods_flashChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36F27DF02CC018F1AF98D55 /* Pods_flashChatTests.framework */; };
 		CA76BE5B2AF67990002ADDAE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76BE5A2AF67990002ADDAE /* Message.swift */; };
+		CA76BE5F2AF6866F002ADDAE /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76BE5D2AF6866F002ADDAE /* MessageCell.swift */; };
+		CA76BE602AF6866F002ADDAE /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA76BE5E2AF6866F002ADDAE /* MessageCell.xib */; };
 		CAC8A49F2AF5A0AF0016FFBE /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8A49E2AF5A0AF0016FFBE /* constants.swift */; };
 		CAF031E62AF5720A0085AC6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAF031E52AF5720A0085AC6F /* GoogleService-Info.plist */; };
 		CAF031E92AF575D60085AC6F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CAF031E82AF575D60085AC6F /* FirebaseAuth */; };
@@ -74,6 +76,8 @@
 		7D24EE9C63D1012665507F99 /* Pods-flashChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashChatTests.release.xcconfig"; path = "Target Support Files/Pods-flashChatTests/Pods-flashChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		B36F27DF02CC018F1AF98D55 /* Pods_flashChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flashChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA76BE5A2AF67990002ADDAE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = flashChat/Message.swift; sourceTree = SOURCE_ROOT; };
+		CA76BE5D2AF6866F002ADDAE /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		CA76BE5E2AF6866F002ADDAE /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		CAC8A49E2AF5A0AF0016FFBE /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		CAF031E52AF5720A0085AC6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D76F645B12E769381FD6BE82 /* Pods-flashChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flashChat.debug.xcconfig"; path = "Target Support Files/Pods-flashChat/Pods-flashChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 		61EE21862AE6817F00F196FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CA76BE5C2AF6863D002ADDAE /* CustomChatCell */,
 				615191FF2AEFB90100A3BE54 /* CustomTextfield */,
 				61EE215C2AE6814400F196FB /* Main.storyboard */,
 			);
@@ -222,6 +227,15 @@
 				7D24EE9C63D1012665507F99 /* Pods-flashChatTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA76BE5C2AF6863D002ADDAE /* CustomChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				CA76BE5D2AF6866F002ADDAE /* MessageCell.swift */,
+				CA76BE5E2AF6866F002ADDAE /* MessageCell.xib */,
+			);
+			path = CustomChatCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA76BE602AF6866F002ADDAE /* MessageCell.xib in Resources */,
 				61EE21632AE6814600F196FB /* LaunchScreen.storyboard in Resources */,
 				CAF031E62AF5720A0085AC6F /* GoogleService-Info.plist in Resources */,
 				61EE21602AE6814600F196FB /* Assets.xcassets in Resources */,
@@ -472,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				615192032AEFC31400A3BE54 /* LoginViewController.swift in Sources */,
+				CA76BE5F2AF6866F002ADDAE /* MessageCell.swift in Sources */,
 				615192012AEFB92500A3BE54 /* customTextfield.swift in Sources */,
 				61EE215B2AE6814400F196FB /* WelcomeViewController.swift in Sources */,
 				CA76BE5B2AF67990002ADDAE /* Message.swift in Sources */,
