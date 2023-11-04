@@ -11,12 +11,19 @@ import Toast
 
 class ChatViewController: UIViewController {
     let firebaseAuth = Auth.auth()
+    
+    var messages : [Message] = [
+    Message(sender: "maruf@gmail.com", body: "Hey!"),
+    Message(sender: "a@b.com", body: "Hello!"),
+    Message(sender: "maruf@gmail.com", body: "What's up!"),]
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
         title = K.appName
-
-        // Do any additional setup after loading the view.
+        tableView.dataSource = self
     }
 
     @IBAction func logoutPressed(_ sender: UIBarButtonItem) {
@@ -30,3 +37,21 @@ class ChatViewController: UIViewController {
         }
     }
 }
+
+
+extension ChatViewController : UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return messages.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath)
+        
+        cell.textLabel?.text = messages[indexPath.row].body
+        return cell
+    }
+    
+    
+}
+
+
