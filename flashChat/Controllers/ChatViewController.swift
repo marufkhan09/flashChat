@@ -30,10 +30,12 @@ class ChatViewController: UIViewController {
     }
     
     func loadMessages() {
-        db.collection(K.FStore.collectionName).getDocuments { querySnapshot, error in
+       
+        db.collection(K.FStore.collectionName).order(by: K.FStore.dateField).addSnapshotListener { querySnapshot, error in
             if let e = error {
                 self.view.makeToast(e.localizedDescription)
             }else {
+                self.messages = []
                 if let snapshotDocuments =  querySnapshot?.documents {
                     snapshotDocuments.forEach { doc in
                         let data = doc.data()
@@ -64,7 +66,7 @@ class ChatViewController: UIViewController {
     @IBAction func sendPressed(_ sender: UIButton) {
         
         if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
-            db.collection(K.FStore.collectionName).addDocument(data: [K.FStore.senderField:messageSender,K.FStore.bodyField:messageBody]) { error in
+            db.collection(K.FStore.collectionName).addDocument(data: [K.FStore.senderField:messageSender,K.FStore.bodyField:messageBody,K.FStore.dateField:Date().timeIntervalSince1970]) { error in
                 if let e = error {
                     self.view.makeToast(e.localizedDescription)
                 }else {
