@@ -12,14 +12,11 @@ import FirebaseFirestore
 
 class ChatViewController: UIViewController {
     let firebaseAuth = Auth.auth()
-    
+   // let messageService = MessageServices()
     let db = Firestore.firestore()
     
     @IBOutlet weak var messageTextField: UITextField!
-    var messages : [Message] = [
-    Message(sender: "maruf@gmail.com", body: "Hey!"),
-    Message(sender: "a@b.com", body: "Hello!"),
-    Message(sender: "maruf@gmail.com", body: "What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up! What's up!"),]
+    var messages : [Message] = []
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,6 +26,28 @@ class ChatViewController: UIViewController {
         title = K.appName
         tableView.dataSource = self
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
+        loadMessages()
+    }
+    
+    func loadMessages() {
+        db.collection(K.FStore.collectionName).getDocuments { querySnapshot, error in
+            if let e = error {
+                self.view.makeToast(e.localizedDescription)
+            }else {
+                if let snapshotDocuments =  querySnapshot?.documents {
+                    snapshotDocuments.forEach { doc in
+                        let data = doc.data()
+                        if let sender = data[K.FStore.senderField] as? String, let body = data[K.FStore.bodyField] as? String{
+                            self.messages.append(Message(sender: sender, body: body))
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
+                        }
+                       
+                    }
+                }
+            }
+        }
     }
 
     @IBAction func logoutPressed(_ sender: UIBarButtonItem) {
