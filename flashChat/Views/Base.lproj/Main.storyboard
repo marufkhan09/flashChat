@@ -208,6 +208,9 @@
                                         <state key="normal" image="paperplane.fill" catalog="system">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendPressed:" destination="354-WB-doo" eventType="touchUpInside" id="ZQT-Ud-bBk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" name="BrandPurple"/>
@@ -241,6 +244,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="messageTextField" destination="4Uv-Se-ZAA" id="xPN-S5-vOw"/>
                         <outlet property="tableView" destination="7C0-gR-wtZ" id="rY7-zV-HgY"/>
                     </connections>
                 </viewController>

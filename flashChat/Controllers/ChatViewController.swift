@@ -8,10 +8,14 @@
 import UIKit
 import FirebaseAuth
 import Toast
+import FirebaseFirestore
 
 class ChatViewController: UIViewController {
     let firebaseAuth = Auth.auth()
     
+    let db = Firestore.firestore()
+    
+    @IBOutlet weak var messageTextField: UITextField!
     var messages : [Message] = [
     Message(sender: "maruf@gmail.com", body: "Hey!"),
     Message(sender: "a@b.com", body: "Hello!"),
@@ -37,6 +41,22 @@ class ChatViewController: UIViewController {
             
         }
     }
+    
+    @IBAction func sendPressed(_ sender: UIButton) {
+        
+        if let messageBody = messageTextField.text, let messageSender = Auth.auth().currentUser?.email {
+            db.collection(K.FStore.collectionName).addDocument(data: [K.FStore.senderField:messageSender,K.FStore.bodyField:messageBody]) { error in
+                if let e = error {
+                    self.view.makeToast(e.localizedDescription)
+                }else {
+                    print("Success")
+                }
+            }
+        }
+        
+        
+    }
+    
 }
 
 
