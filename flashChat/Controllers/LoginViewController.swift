@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
                     self.view.makeToast(e.localizedDescription)
                 } else {
                     //Navigate to chatViewController
-                    self.performSegue(withIdentifier: "LoginToChat", sender: self)
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
         }
