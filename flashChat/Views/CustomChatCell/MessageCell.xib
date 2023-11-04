@@ -18,7 +18,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="383" height="72"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aST-QW-l0I">
+                    <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aST-QW-l0I">
                         <rect key="frame" x="10" y="10" width="363" height="52"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLM-L8-K9X">
