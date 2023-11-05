@@ -12,6 +12,7 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var emailTextfield: CustomTextField!
     @IBOutlet weak var passwordTextfield: CustomTextField!
+
     override func viewDidLoad() {
         
         super.viewDidLoad()
